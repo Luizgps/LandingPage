@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+body{
+    animation-name: anim2;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+header{
+    animation-name: anim1;
+    animation-direction: alternate-reverse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.w50{
+    color: black;
+    width: 50%;
+    padding: 0 10px;
+    font-size: 40px;
+}
+.w50 img{
+    margin-left: 40px;
+    margin-top: -60px;
+    text-align: top;
+    width: 200px;
+    height: 200px;
+}
+.menu{
+    margin-top: 10px;
+}
+a{
+    padding: 10px;
+    padding-left: 30px;
+}
+.video{
+    font-size: 20px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    animation-name: anim2;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.video p{
+    text-align: center;
+    display: inline;
+    width: 33%;
+}
+iframe{
+    padding: 10px;
+}
+.sobre{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 50px;
+
+}
+.sobre img{
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+}
+.sobre div{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    animation-name: anim1;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;;
+    margin-top: 100px;
+    margin-left: 280px;
+
+}
+.mim{
+    width: 300px;
+    height: 300px;
+    padding-top: 70px;
+    margin-left: 10px;
+    border-radius: 70px;
+    padding-left: 5px;
+}
+.ferramentas{
+    width: 300px;
+    height: 300px;
+    padding-top: 70px;
+    margin-left: 10px;
+    border-radius: 70px;
+    padding-left: 5px;
+}
+.artes{
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+div .tt{
+    margin-bottom:200px;
+    width: 600px;
+    height: 300px;
+}
+div .doka{
+    margin: 50px;
+    width: 300px;
+    height: 600px;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    animation-name: anim3;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes anim1{
+    from{
+            background-color: #f79808;
+    }
+    to{
+            background-color: #eebe24;
+    }
+}
+@keyframes anim2{
+    from{
+            background-color: black;
+    }
+    to{
+            background-color: rgb(26, 26, 26);
+    }
+}
+@keyframes anim3{
+    from{
+           color: #f79808;
+    }
+    to{
+           color: #eebe24;
+    }
+}
